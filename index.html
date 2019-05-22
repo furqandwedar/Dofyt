@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+ 
+ 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ 
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+          integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <title>IoT</title>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+</head>
+ 
+<body background="" style="background-repeat:repeat;background-size: 100%;">
+<div class="container">
+    <br><br><br><br>
+    <h1>In Home</h1>
+    <br>
+ 
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="well well-sm">
+                <h4 class="text-center">Hall</h4>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <a href="/?hall=on" class="btn btn-success btn-lg btn-block" role="button">ON</a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="/?hall=off" class="btn btn-danger btn-lg btn-block" role="button">OFF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="well well-sm">
+                <h4 class="text-center">Room2</h4>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <a href="/?room2=on" class="btn btn-success btn-lg btn-block" role="button">ON</a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="/?room2=off" class="btn btn-danger btn-lg btn-block" role="button">OFF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="well well-sm">
+                <h4 class="text-center">Room4</h4>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <a href="/?room4=on" class="btn btn-success btn-lg btn-block" role="button">ON</a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="/?room4=off" class="btn btn-danger btn-lg btn-block" role="button">OFF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="well well-sm">
+                <h4 class="text-center">Window</h4>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <a href="/?window=on" class="btn btn-success btn-lg btn-block" role="button">Open</a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="/?window=off" class="btn btn-danger btn-lg btn-block" role="button">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="well well-sm">
+                <h4 class="text-center">Car</h4>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <a href="/?car=on" class="btn btn-success btn-lg btn-block" role="button">ON</a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="/?car=off" class="btn btn-danger btn-lg btn-block" role="button">OFF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="well well-sm">
+                <h4 class="text-center">Camera</h4>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <a href="/?camera=on" class="btn btn-success btn-lg btn-block" role="button">ON</a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="/?camera=off" class="btn btn-danger btn-lg btn-block" role="button">OFF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="well well-sm">
+                <h4 class="text-center">gate</h4>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <a href="/?gate=on" class="btn btn-success btn-lg btn-block" role="button">Open</a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="/?gate=off" class="btn btn-danger btn-lg btn-block" role="button">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="well well-sm">
+                <h4 class="text-center">Garage</h4>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <a href="/?garage=on" class="btn btn-success btn-lg btn-block" role="button">Open</a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="/?garage=off" class="btn btn-danger btn-lg btn-block" role="button">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <div>
+        <h1>Sensors</h1>
+        <br><br>
+ 
+ 
+        <i class="fas fa-thermometer-three-quarters" style='font-size:24px'> Temperature</i>
+        <br><br>
+        <div class="progress">
+            <div name=Temperature class="progress-bar progress-bar-success  progress-bar-striped active" role="progressbar" style="width:47%">47% C
+            </div>
+        </div>
+ 
+ 
+        <i class="fas fa-tint" style='font-size:24px'> Humidity</i>
+        <br><br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-info  progress-bar-striped active" role="progressbar" style="width:21%">21%
+            </div>
+        </div>
+ 
+ 
+        <i class="fas fa-fire" style='font-size:24px'> Smoke</i>
+        <br><br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-danger  progress-bar-striped active" role="progressbar" style="width:58%">58%
+            </div>
+        </div>
+ 
+ 
+        <i class='fas fa-cloud-rain' style='font-size:24px'> Rain</i>
+        <br><br>
+        <div class="progress">
+            <div name="rain" class="progress-bar progress-bar-info  progress-bar-striped active" role="progressbar" style="width:71%">24%
+            </div>
+        </div>
+ 
+ 
+        <i class="" style='font-size:24px'> Gas</i>
+        <br><br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-warning  progress-bar-striped active" role="progressbar" style="width:52%">52%
+            </div>
+        </div>
+ 
+ 
+        <i class="fas fa-sun" style='font-size:24px'> Brightness </i>
+        <br><br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success  progress-bar-striped active " role="progressbar" style="width:10%">10 %
+            </div>
+        </div>
+ 
+    </div>
+ 
+</div>
+</body>
+</html>
